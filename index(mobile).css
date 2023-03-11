@@ -1,0 +1,181 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.dotted-hr {
+  border: dotted 6px rgb(195, 234, 236);
+  border-bottom: none;
+  margin: 20px, auto;
+  width: 100px;
+}
+
+/*-------navbar design-----*/
+
+.nav-logo {
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgb(132, 211, 218);
+}
+
+.nav-heading {
+  text-align: center;
+}
+
+.nav-menu {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.nav-menu a {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  text-decoration-color: blueviolet;
+  background-color: rgb(113, 206, 211);
+}
+
+/*-----profile description design-----*/
+
+.profile-dec p {
+  color: rgb(126, 118, 118);
+  text-align: center;
+}
+
+/*-----About me design-----*/
+
+h2 {
+  font-size: 1.5 rem;
+  text-align: center;
+}
+
+.about-me {
+  background-color: rgb(141, 195, 198);
+  padding: 1%, 7%;
+  color: black;
+  text-align: center;
+}
+
+.about-me-image img {
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 220px;
+  width: 200px;
+}
+
+.about-me p {
+  text-align: center;
+}
+
+.cv-button {
+  background-color: #49abb0;
+  color: white;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.about-me-des a {
+  color: rgb(121, 31, 205);
+}
+
+/*-----------professional expriences design starts----------*/
+
+.Professional-expirence {
+  padding: 3%;
+}
+
+.Professional-expirence .card {
+  background-color: #d7cfcf;
+  border-radius: 5px;
+  padding: 10px;
+  height: 865px;
+  width: 100%;
+}
+
+.card-icon {
+  text-align: center;
+}
+
+.card-icon img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.rounded-img {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.card-title h2 {
+  background-color: #bdb2b2;
+  padding: 10px;
+}
+
+.skills-container {
+  padding-right: 45%;
+}
+
+.skills-container li {
+  list-style: none;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/*-----------contact starts----------*/
+
+.contact-are {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.contact input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  resize: none;
+  background-color: rgb(176, 230, 233);
+}
+
+.contact button {
+  border-radius: 10px;
+  background-color: #56bec4;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*----------footer starts----------*/
+
+.footer {
+  background-color: rgb(103, 180, 184);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 0.8rem;
+}
+
+.footer-menu a {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration-color: blueviolet;
+  background-color: rgb(118, 199, 203);
+  text-decoration: none;
+}
